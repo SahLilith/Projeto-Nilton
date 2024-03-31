@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: gold;
+        }
+    
+        /* Estilos para a barra de navegação */
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(5, 5, 109);
+        }
+    
+        .navbar a {
+            float: left;
+            display: block;
+            color: gold;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+    
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: gold;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+    
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: rgb(5, 5, 109);
+            color: black;
+        }
+    
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(5, 5, 109);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+    
+        .dropdown-content a {
+            float: none;
+            color: gold;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+    
+        .dropdown-content a:hover {
+            background-color: rgb(20, 20, 201);
+        }
+    
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    
+        /* Estilos para o carrossel de imagens */
+        .carousel {
+            width: 100%;
+            overflow: hidden;
+        }
+    
+        .carousel img {
+            width: 100%;
+            height: auto;
+        }
+    
+        /* Estilos para o formulário de contato */
+        form {
+            margin: 0 auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 400px;
+            background-color: #f2f2f2;
+            border-radius: 8px;
+        }
+    
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+    
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Serviços</button>
+            <div class="dropdown-content">
+                <a href="hotel.html">Hotel</a>
+                <a href="estetica.html">Estética</a>
+                <a href="vet.html">Veterinário</a>
+            </div>
+        </div>
+        <a href="contatos.html">Contatos</a>
+        <a href="sobre.html">Sobre</a>
+    </div>
+    
+    <div class="content">
+            <h2>Sobre</h2>
+    <p>O Petshop Lunar foi fundado no ano atual, este refúgio celestial para animais de estimação nasceu do sonho
+    </p> <p>de seus criadores, que compartilham uma paixão ardente por animais e uma dedicação incomparável</p>
+        <p>ao bem-estar deles.</p><br>
+    <p>Guiados por uma equipe de profissionais excepcionais, cujas habilidades são tão vastas quanto</p>
+        <p>o espaço sideral, o Petshop Lunar oferece uma variedade de serviços de alta qualidade para</p>
+        <p>atender às necessidades de todos os companheiros interplanetários. Seja para uma simples</p>
+            <p>consulta médica ou para um banho relaxante em gravidade reduzida, os animais de</p>
+                <p>estimação aqui recebem tratamento digno de realeza.</p><br>
+        
+        <p> O ano de sua fundação pode ser recente, mas o compromisso do Petshop Lunar com o cuidado, a compaixão e a excelência é tão antigo quanto o universo.
+        </p>
+    </div>
+</body>
+</html>
